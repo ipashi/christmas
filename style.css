@@ -3,8 +3,9 @@ body{
   margin: 0;
 }
 .middle{
-  position: absolute;
-  top: 80%;
+  position: relative;
+  margin-top: 150px;
+  /*top: 150%;*/
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
@@ -106,4 +107,18 @@ body{
     top: -10%;
     left: -10%;
   }
+}
+@media (min-width: 1000px){
+.text{
+      position: absolute;
+      bottom: 220px;
+      left: 430px;
+  }
+.santaimg{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-top: 100px;
+    }
 }

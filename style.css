@@ -16,8 +16,12 @@
       margin-top: 500px;
     }
     .text{
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Charm', cursive;
+      font-size: 2rem;
       position: absolute;
-      bottom: 180px;
+      bottom: 100px;
       left: 310px;
     }
     #divsanta{
@@ -143,6 +147,27 @@
   width: 300px;
   height: 30px;
 }
+.txtname{
+      background: url("text-bg.png") no-repeat;
+      background-clip: text;
+      -webkit-background-clip:text;
+      color: transparent;
+      -webkit-animation: movebg 90s linear infinite;
+}
+.txtwish{
+        background: url("text-bg.png") no-repeat;
+      background-clip: text;
+      -webkit-background-clip:text;
+      color: transparent;
+      -webkit-animation: movebg 90s linear infinite;
+}
+.txthappy{
+        background: url("text-bg.png") no-repeat;
+      background-clip: text;
+      -webkit-background-clip:text;
+      color: transparent;
+      -webkit-animation: movebg 90s linear infinite;
+}
 @keyframes aaa {
   0%{
     left: -110%;
@@ -157,9 +182,12 @@
 }
 @media (min-width: 1000px){
 .text{
-      position: absolute;
-      bottom: 220px;
-      left: 430px;
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Charm', cursive;
+      font-size: 2rem;
+      bottom: 160px;
+      left: 400px;
   }
 .santaimg{
       display: block;
@@ -173,4 +201,12 @@
   text-align: center;
   margin-top: 100px;
  }
+}
+@keyframes movebg{
+  0%{
+    background-position: 0% 30%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
 }
